@@ -1,0 +1,172 @@
+<resources>
+    <string name="app_name">WORDPEDIA</string>
+    <string name="search_box_hint">Search any word ...</string>
+    <string name="search_button_text">Search</string>
+    <string name="loading_error">Unable to run query.  Check internet.</string>
+    <string name="action_share">Share</string>
+    <string name="action_view_on_web">View repo on GitHub</string>
+    <string name="share_chooser_title">How do you want to share this repo?</string>
+    <string name="share_repo_text">%1$s: %2$s</string>
+    <string name="option_search">Search</string>
+    <string name="option_search_hint">Search any word ...</string>
+    <string name="option_random">Randomize</string>
+
+    <string name="nav_search">Search</string>
+    <string name="nav_saved_repos">Saved repos</string>
+    <string name="nav_settings">Settings</string>
+    <string name="nav_home">Home</string>
+    <string name="nav_rhymes">Rhymes</string>
+    <string name="nav_pronunciation">Pronunciation</string>
+    <string name="nav_frequency">Rating</string>
+    <string name="nav_helper">Help</string>
+    <string name="nav_images">Images</string>
+    <string name="nav_share">Share</string>
+
+    <!-- Strings for sort-by preference -->
+    <string name="pref_sort_key" translatable="false">pref_sort</string>
+    <string name="pref_sort_title">Sort by</string>
+    <string name="pref_sort_entry_best_match">Best match</string>
+    <string name="pref_sort_entry_stars">Stars</string>
+    <string name="pref_sort_value_stars" translatable="false">stars</string>
+    <string name="pref_sort_entry_forks">Forks</string>
+    <string name="pref_sort_value_forks" translatable="false">forks</string>
+    <string name="pref_sort_entry_updated">Most-recently updated</string>
+    <string name="pref_sort_value_updated" translatable="false">updated</string>
+    <string name="pref_sort_default">@string/pref_sort_value_stars</string>
+
+    <string name="pref_num_of_images_key" translatable="false">pref_num_of_images</string>
+    <string name="pref_num_of_images_title">Number of Images</string>
+    <string name="pref_num_of_images_1">1</string>
+    <string name="pref_num_of_images_2">2</string>
+    <string name="pref_num_of_images_3">3</string>
+    <string name="pref_num_of_images_4">4</string>
+    <string name="pref_num_of_images_5">5</string>
+    <string name="pref_num_of_images_6">6</string>
+    <string name="pref_num_of_images_7">7</string>
+    <string name="pref_num_of_images_8">8</string>
+    <string name="pref_num_of_images_9">9</string>
+    <string name="pref_num_of_images_10">10</string>
+    <string name="pref_num_of_images_default">3</string>
+
+
+
+    <!-- Strings for programming language preference -->
+    <string name="pref_language_key" translatable="false">pref_language</string>
+    <string name="pref_language_title">Programming language</string>
+    <string name="pref_language_default"></string>
+    <string name="pref_language_entry_any">Any language</string>
+    <string name="pref_language_entry_c">C</string>
+    <string name="pref_language_value_c" translatable="false">c</string>
+    <string name="pref_language_entry_cpp">C++</string>
+    <string name="pref_language_value_cpp" translatable="false">c++</string>
+    <string name="pref_language_entry_java">Java</string>
+    <string name="pref_language_value_java" translatable="false">java</string>
+    <string name="pref_language_entry_kotlin">Kotlin</string>
+    <string name="pref_language_value_kotlin" translatable="false">kotlin</string>
+    <string name="pref_language_entry_javascript">Javascript</string>
+    <string name="pref_language_value_javascript" translatable="false">javascript</string>
+    <string name="pref_language_entry_rust">Rust</string>
+    <string name="pref_language_value_rust" translatable="false">rust</string>
+    <string name="pref_language_entry_python">Python</string>
+    <string name="pref_language_value_python" translatable="false">python</string>
+
+    <!-- Strings for search-in preference -->
+    <string name="pref_in_title">Search in</string>
+    <string name="pref_in_name_key" translatable="false">pref_in_name</string>
+    <string name="pref_in_name_title">Search in name</string>
+    <string name="pref_in_description_key" translatable="false">pref_in_description</string>
+    <string name="pref_in_description_title">Search in description</string>
+    <string name="pref_in_readme_key" translatable="false">pref_in_readme</string>
+    <string name="pref_in_readme_title">Search in README</string>
+
+    <!-- Strings for user preference -->
+    <string name="pref_user_key" translatable="false">pref_user</string>
+    <string name="pref_user_title">GitHub user</string>
+
+
+    <string name="definition_header">Definition</string>
+    <string name="part_of_speech_header">Part Of Speech</string>
+    <string name="synonyms_header">Synonyms</string>
+    <string name="antonyms_header">Antonyms</string>
+    <string name="examples_header">Examples</string>
+    <string name="type_of_header">Type Of</string>
+    <string name="has_types_header">Has Types</string>
+    <string name="part_of_header">Part Of</string>
+    <string name="has_parts_header">Has Parts</string>
+    <string name="instance_of_header">Instance Of</string>
+    <string name="has_instances_header">Has Instances</string>
+    <string name="similar_to_header">Similar To</string>
+    <string name="also_header">Also</string>
+    <string name="entails_header">Entails</string>
+    <string name="member_of_header">Member Of</string>
+    <string name="has_members_header">Has Members</string>
+    <string name="substance_of_header">Substance Of</string>
+    <string name="has_substances_header">Has Substances</string>
+    <string name="in_category_header">In Category</string>
+    <string name="has_categories_header">Has Categories</string>
+    <string name="usage_of_header">Usage Of</string>
+    <string name="has_usages_header">Has Usages</string>
+    <string name="region_of_header">Region Of</string>
+    <string name="in_region_header">In Regions</string>
+    <string name="pertains_to_header">Pertains To</string>
+
+    <string name="definition_helper">The meaning of the word, including its part of speech</string>
+    <string name="synonyms_helper">Words that can be interchanged for the original word in the same context</string>
+    <string name="antonyms_helper">Words that have the opposite context of the original word</string>
+    <string name="examples_helper">Example sentences using the word</string>
+    <string name="type_of_helper">Words that are more generic than the original word.Also known as hypernyms</string>
+    <string name="has_types_helper">Words that are more specific than </string>
+    <string name="part_of_helper">The larger whole to which this word belongs. Also known as holonyms</string>
+    <string name="has_parts_helper">Words that are part of the original word. Also known as meronyms</string>
+    <string name="instance_of_helper">Words that the original word is an example of</string>
+    <string name="has_instances_helper">Words that are examples of the original word</string>
+    <string name="similar_to_helper">Words that similar to the original word, but are not synonyms</string>
+    <string name="also_helper">Phrases to which the original word belongs</string>
+    <string name="entails_helper">Words that are implied by the original word. Usually used for verbs</string>
+    <string name="member_of_helper">A group to which the original word belongs</string>
+    <string name="has_members_helper">Words that belong to the group defined by the original word</string>
+    <string name="substance_of_helper">Substances to which the original word is a part of</string>
+    <string name="has_substances_helper">Substances that are part of the original word</string>
+    <string name="in_category_helper">The domain category to which the original word belongs</string>
+    <string name="has_categories_helper">Categories of the original word</string>
+    <string name="usage_of_helper">Words that the original word is a domain usage of</string>
+    <string name="has_usages_helper">Words that are examples of the domain the original word defines</string>
+    <string name="in_region_helper">Regions where the word is used</string>
+    <string name="region_of_helper">A region where words are used</string>
+    <string name="pertains_to_helper">Words to which the original word is relevant</string>
+
+
+    <string name="type_of_example">For example, a hatchback is a type of car</string>
+    <string name="has_types_example">For example, purple has types violet, lavender, mauve, etc ...</string>
+    <string name="part_of_example">For example, a finger is part of a hand, a glove, a paw, etc ...</string>
+    <string name="has_parts_example">For example, a building has parts such as roofing, plumbing, etc ...</string>
+    <string name="instance_of_example">For example, Einstein is an instance of a physicist</string>
+    <string name="has_instances_example">For example, president has instances such as theodore roosevelt, van buren, etc ... </string>
+    <string name="similar_to_example">For example, red is similar to bloody</string>
+    <string name="also_example">For example, bump is used in the phrase bump off</string>
+    <string name="entails_example">For example, rub entails touch</string>
+    <string name="member_of_example">For example, dory is a member of the family zeidae</string>
+    <string name="has_members_example">For example, a cult has members called cultists</string>
+    <string name="substance_of_example">For example, water is a substance of sweat</string>
+    <string name="has_substances_example">For example, wood has a substance called lignin</string>
+    <string name="in_category_example">For example, chaotic is in category physics</string>
+    <string name="has_categories_example">For example, math has categories such as algebra, imaginary, numerical analysis, etc ...</string>
+    <string name="usage_of_example">For example, advil is a usage of trademark, etc ...</string>
+    <string name="has_usages_example">For example, colloquialism is a domain that includes examples like big deal, blue moon etc ...</string>
+    <string name="in_region_example">For example, chips is used in region Britain</string>
+    <string name="region_of_example">For example, Canada is the region of pogey</string>
+    <string name="pertains_to_example">For example, .22-caliber pertains to caliber</string>
+
+    <string name="rating_frequency_header">Frequency</string>
+    <string name="rating_usage_per_million_header">Usage Per Million</string>
+    <string name="rating_difficulty_header">Difficulty</string>
+
+    <string name="all_rhymes_header">All</string>
+    <string name="noun_rhymes_header">Noun</string>
+    <string name="verb_rhymes_header">Verb</string>
+
+    <string name="all_pronunciation_header">All</string>
+    <string name="noun_pronunciation_header">Noun</string>
+    <string name="verb_pronunciation_header">Verb</string>
+
+</resources>

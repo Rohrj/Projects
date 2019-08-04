@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_sort_entries">
+        <item>@string/pref_sort_entry_best_match</item>
+        <item>@string/pref_sort_entry_stars</item>
+        <item>@string/pref_sort_entry_forks</item>
+        <item>@string/pref_sort_entry_updated</item>
+    </string-array>
+
+    <string-array name="pref_sort_values">
+        <item></item>
+        <item>@string/pref_sort_value_stars</item>
+        <item>@string/pref_sort_value_forks</item>
+        <item>@string/pref_sort_value_updated</item>
+    </string-array>
+
+    <string-array name="pref_language_entries">
+        <item>@string/pref_language_entry_any</item>
+        <item>@string/pref_language_entry_c</item>
+        <item>@string/pref_language_entry_cpp</item>
+        <item>@string/pref_language_entry_java</item>
+        <item>@string/pref_language_entry_javascript</item>
+        <item>@string/pref_language_entry_rust</item>
+        <item>@string/pref_language_entry_python</item>
+    </string-array>
+
+    <string-array name="pref_language_values">
+        <item></item>
+        <item>@string/pref_language_value_c</item>
+        <item>@string/pref_language_value_cpp</item>
+        <item>@string/pref_language_value_java</item>
+        <item>@string/pref_language_value_javascript</item>
+        <item>@string/pref_language_value_rust</item>
+        <item>@string/pref_language_value_python</item>
+    </string-array>
+
+    <string-array name="pref_num_of_images_entries">
+        <item>@string/pref_num_of_images_1</item>
+        <item>@string/pref_num_of_images_2</item>
+        <item>@string/pref_num_of_images_3</item>
+        <item>@string/pref_num_of_images_4</item>
+        <item>@string/pref_num_of_images_5</item>
+        <item>@string/pref_num_of_images_6</item>
+        <item>@string/pref_num_of_images_7</item>
+        <item>@string/pref_num_of_images_8</item>
+        <item>@string/pref_num_of_images_9</item>
+        <item>@string/pref_num_of_images_10</item>
+    </string-array>
+
+    <string-array name="pref_num_of_images_values">
+        <item>@string/pref_num_of_images_1</item>
+        <item>@string/pref_num_of_images_2</item>
+        <item>@string/pref_num_of_images_3</item>
+        <item>@string/pref_num_of_images_4</item>
+        <item>@string/pref_num_of_images_5</item>
+        <item>@string/pref_num_of_images_6</item>
+        <item>@string/pref_num_of_images_7</item>
+        <item>@string/pref_num_of_images_8</item>
+        <item>@string/pref_num_of_images_9</item>
+        <item>@string/pref_num_of_images_10</item>
+    </string-array>
+
+</resources>
