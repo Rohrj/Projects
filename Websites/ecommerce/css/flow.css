@@ -1,0 +1,95 @@
+/* === Unordered List TREE Layout. Method at CodePen by Omar Jesus Bravo http://codepen.io/ojbravo/pen/xCcJq  ====*/
+
+.flow ul {
+  margin: 0;
+  padding: 20px 0 0 0;
+  position: relative;
+  width: 100%;
+  margin-bottom: 100px;
+}
+
+.flow li {
+  float: left;
+  text-align: center;
+  list-style-type: none;
+  position: relative;
+  padding: 20px 5px 0 5px;
+}
+
+.flow li a {
+  border: 1px solid var(--blueshade);
+  padding: 5px 10px;
+  text-decoration: none;
+  color: var(--blueshade);
+  font-size: 100%;
+  display: inline-block;
+  border-radius: 5px;
+  background-color: var(--bluetint);
+}
+
+.flow li a:hover {
+  color: var(--blue);
+  border: 1px solid var(--blue);
+  -webkit-transform: scale(1.2) translateY(0px);
+  -moz-transform: scale(1.2) translateY(0px);
+  -o-transform: scale(1.2) translateY(0px);
+  -ms-transform: scale(1.2) translateY(0px);
+  transform: scale(1.2) translateY(0px);
+}
+
+.flow li a.first {
+  font-weight: bold;
+}
+
+@media all and (min-width: 600px) {
+  /*  ============================  TABLET ====*/
+  /* Make top connectors with borders on empty content before and after. */
+  .flow li::before,
+  .flow li::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 50%;
+    border-top: 1px solid var(--blueshade);
+    width: 50%;
+    height: 20px;
+  }
+  /* Make left connectors with borders on empty content after. */
+  .flow li::after {
+    right: auto;
+    left: 50%;
+    border-left: 1px solid var(--blueshade);
+  }
+  /* Remove left-right connectors from elements without siblings. */
+  .flow li:only-child::after,
+  .flow li:only-child::before {
+    display: none;
+  }
+  /* Remove space from the top of single children. */
+  .flow li:only-child {
+    padding-top: 0;
+  }
+  /* Remove left connector from first child and right connector from last child. */
+  .flow li:first-child::before,
+  .flow li:last-child::after {
+    border: 0 none;
+  }
+  /* Add back the vertical connector to the last nodes.*/
+  .flow li:last-child::before {
+    border-right: 1px solid var(--blueshade);
+    border-radius: 0 5px 0 0;
+  }
+  .flow li:first-child::after {
+    border-radius: 5px 0 0 0;
+  }
+  /* Add downward connectors from the parent. */
+  .flow ul ul::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 50%;
+    border-left: 1px solid var(--blueshade);
+    width: 0;
+    height: 20px;
+  }
+}

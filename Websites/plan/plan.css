@@ -1,0 +1,148 @@
+body {
+  font-family: 'Raleway', sans-serif;
+  font-size: 120%;
+}
+
+header {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+a {}
+
+a:hover {}
+
+nav {
+  text-align: center;
+}
+
+nav ul {
+  padding: 0;
+}
+
+nav li {
+  list-style-type: none;
+  display: inline-block;
+}
+
+nav a {
+  display: block;
+  font-size: 150%;
+  margin: 2%;
+  width: 200px;
+  padding: 10px;
+  text-decoration: none;
+}
+
+nav i[onclick] {
+  cursor: pointer;
+}
+
+article {
+  margin: 1% 4%;
+  padding: 3%;
+}
+
+footer {
+  margin: 1% 4%;
+  padding: 3%;
+}
+
+footer li {
+  list-style-type: none;
+  display: inline-block;
+}
+
+h1 {
+  font-family: 'Rambla', sans-serif;
+  font-weight: normal;
+  margin: 0px;
+}
+
+h2 {
+  font-family: 'Rambla', sans-serif;
+  font-weight: normal;
+  margin: 0px;
+}
+
+p {}
+
+img {
+  margin-top: 1%;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+caption {}
+
+thead {}
+
+tbody {}
+
+tfoot {
+  display: none;
+}
+
+tr {
+  border-bottom: 2px solid white;
+}
+
+th {
+  padding: 1%;
+  border-bottom: 2px solid white;
+  border-right: 2px solid white;
+}
+
+td {
+  padding: 1%;
+  color: black;
+}
+
+dl {}
+
+dt {
+  margin: 1% 0 1% 0;
+}
+
+dd {}
+
+ul,
+ol {
+  overflow: hidden;
+}
+
+nav ul {
+  overflow: initial;
+}
+
+li {}
+
+.alignright {
+  float: right;
+  margin: 0 0 0 2%;
+}
+
+.aligncenter {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.radius {
+  -webkit-border-radius: 8px;
+  /*Safari, Chrome*/
+  -moz-border-radius: 8px;
+  /*Firefox*/
+  border-radius: 8px;
+}
+
+.light-bg {
+  background-color: #dadada;
+}
+
+.dark-bg {
+  background-color: #c1c1c1;
+}

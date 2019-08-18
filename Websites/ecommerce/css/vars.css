@@ -1,0 +1,7 @@
+/* colors */
+
+:root {
+  --blue: hsla(236, 100%, 50%, 1);
+  --bluetint: hsla(236, 100%, 85%, 0.4);
+  --blueshade: hsla(236, 100%, 15%, 1);
+}

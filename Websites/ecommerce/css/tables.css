@@ -1,0 +1,76 @@
+.scroll {
+  overflow-X: auto;
+  width: 320px;
+}
+
+td, th {
+  vertical-align: top;
+}
+
+table {
+  border-collapse: collapse;
+  border: 2px solid var(--blueshade);
+  font-size: 85%;
+}
+
+caption {
+  text-align: left
+}
+
+thead th {
+  text-align: center;
+  border-right: 1px solid var(--blueshade);
+  background-color: var(--bluetint);
+}
+
+tbody td {
+  border-right: 1px solid var(--blueshade);
+  border-left: 1px solid var(--blueshade);
+  border-bottom: 0;
+}
+
+td:last,
+th:last {
+  border: 0;
+}
+
+#comparison th,
+#comparison td {
+  min-width: 150px;
+}
+
+#comparison tbody td:nth-child(1) {
+  font-weight: 700;
+  font-size: 110%;
+}
+
+tbody:hover td {
+  /*inactive rows */
+  color: transparent;
+  text-shadow: 0 0 3px silver;
+}
+
+tbody:hover tr:hover td {
+  color: black;
+  text-shadow: 0 1px 0 transparent;
+}
+
+#estimate th,
+#estimate td {
+  text-align:right;
+  min-width:100px;
+}
+
+@media all and (min-width: 600px) {
+  /*  ============================  TABLET ====*/
+  .scroll {
+    width: 600px;
+  }
+}
+
+@media all and (min-width: 1080px) {
+  /*  ======================   DESKTOP   */
+  .scroll {
+    width: 1080px;
+  }
+}

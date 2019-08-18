@@ -1,0 +1,91 @@
+#tabs label {
+  background-color: var(--bluetint);
+  border: 1px solid var(--bluetint);
+  border-radius: 5px 35px 0 0;
+  color: var(--blue);
+  cursor: pointer;
+  font-weight: bold;
+  margin: 0 0 2% 0;
+  padding: 2% 6% 2% 3%;
+  z-index: 1;
+}
+
+#tabs label:first-of-type {
+  margin-left: 0;
+}
+
+#tabs label:hover {
+  background-color: var(--blue);
+  border-color: var(--blue);
+  color: white;
+  transition: all 500ms ease;
+}
+
+#tabs article {
+  border: 1px solid var(--bluetint);
+  border-top-right-radius: 10px;
+  background: linear-gradient(135deg, white, var(--bluetint));
+  color: var(--bluetint);
+  margin: 6px 0 15px 0;
+  min-height: auto;
+  padding: 1% 2% 2% 2%;
+  width: 95%;
+}
+
+#tabs input[type=radio] {
+  display: none;
+}
+
+#tabs input[type=radio]:checked+label {
+  border-color: var(--blueshade);
+  border-bottom: 3px solid white;
+  color: var(--blueshade);
+  margin-bottom: -1px;
+  background-color: white;
+}
+
+#tabs input[type=radio]:checked+label+article {
+  background-color: white;
+  border: 1px solid var(--blueshade);
+  color: var(--blueshade);
+  display: block;
+}
+
+@media all and (min-width: 600px) {
+  /*  ============================  TABLET ====*/
+  #tabs {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  #tabs article {
+    display: none;
+    min-height: 300px;
+    margin: 0px 0 5% 0;
+    order: 1;
+  }
+  #tabs label {
+    border-bottom: 1px solid var(--bluetint);
+    font-size: 70%;
+    margin: 1% .5% -1px 0;
+    padding: .5% 1.5% .5% .25%;
+    color: var(--blueshade);
+  }
+  #tabs input[type=radio]:checked+label {
+    padding: .5% 1.5% .5% .25%;
+    border-bottom: 1px solid white;
+  }
+}
+
+@media print {
+  /*  ============================   PRINT   */
+  #tabs {
+    font-size: 80%;
+  }
+  #tabs label {
+    padding: 1% 2% 1% 1%;
+    color: black;
+    border-bottom: 1px solid whitesmoke;
+  }
+}
+
+/* Do not remove this brace.*/

@@ -1,0 +1,88 @@
+<!doctype html>
+<!--[if lt IE 7 ]> <html class="ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]>    <html class="ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]>    <html class="ie8" lang="en"> <![endif]-->
+<!--[if IE 9 ]>    <html class="ie9" lang="en"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!-->
+<html lang="en">
+<!--<![endif]-->
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<?php 
+      $sitename="Cryptids of the World"; 
+      $sitedescription="A Hub to the Undiscoverable";
+      $sitepath="http://people.oregonstate.edu/~rohrj/cryptids/";
+      $author="Jonathan Rohr";
+   ?>
+	<title>
+		<?php echo $pagetitle." , ".$sitename." , ".$sitedescription; ?>
+	</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	<meta name="description" content="<?php echo $sitedescription; ?>" />
+	<meta name="author" content="<?php $author; ?>" />
+	<meta name="keywords" content="cryptozoology, cryptids in America, cryptids of the world, information on cryptids, cryptozoology creatures website, cryptids in the United Kingdom, list of cryptids, websites dedicated to cryptids, mysterious creatures, paranormal creatures, extinct creatures, extinct animals, bigfoot in America, yeti location, cryptozoologists in America, cryptozoologists of the world, how to learn about cryptids, stories about cryptids, monsters of the world, animals of legend"
+	/>
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<!-- <meta name="robots" content="noindex,nofollow,noarchive"> -->
+	<link href="https://necolas.github.io/normalize.css/3.0.3/normalize.css" type="text/css" rel="stylesheet" />
+	<link rel="stylesheet" href="<?php echo $sitepath;?>cryptid.css" />
+	<link href="<?php echo $sitepath; ?>carousel.css" rel="stylesheet" />
+	<!-- fonts go here -->
+	<link href="https://fonts.googleapis.com/css?family=Raleway:600|Creepster|Slackey" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+	<!-- favicons -->
+	<link rel="apple-touch-icon" sizes="180x180" href="<?php echo $sitepath; ?>apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="<?php echo $sitepath; ?>favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="<?php echo $sitepath; ?>favicon-16x16.png">
+	<link rel="manifest" href="<?php echo $sitepath; ?>manifest.json">
+	<link rel="mask-icon" href="<?php echo $sitepath; ?>safari-pinned-tab.svg" color="#5bbad5">
+	<meta name="theme-color" content="#ffffff">
+	<!-- scripts go here -->
+	<style rel="stylesheet">
+		body{
+			background-image: url(<?php echo $bgphoto; ?>);
+			background-color: <?php echo $bgcolor; ?>;
+		}
+</style>
+</head>
+
+<body id="top">
+	<div id="hader">
+		<header class="alignleft">
+			<a href="<?php echo $sitepath; ?>">
+					<img src="<?php echo $sitepath;?>img/cryptid-symbol.png" 
+            alt="<?php echo $sitename." for ".$author; ?>"
+            title="<?php echo $slogan; ?>" 
+            id="symbol"
+            class="move"
+          /><img src="<?php echo $sitepath;?>img/cryptid-name.png" 
+            alt="<?php echo $sitename." for ".$author; ?>"
+            title="<?php echo $slogan; ?>" 
+            id="name"
+            class="move"
+          /><img src="<?php echo $sitepath;?>img/cryptid-slogan.png" 
+            alt="<?php echo $sitename." for ".$author; ?>"
+            title="<?php echo $slogan; ?>" 
+            id="slogan"
+            class="move"
+          /><img src="<?php echo $sitepath;?>img/cryptid-logo.png" 
+            alt="<?php echo $sitename." for ".$author; ?>"
+            title="<?php echo $slogan; ?>" 
+            id="logo"
+            class=""
+          /></a>
+		</header>
+		<nav id="pages">
+			<ul>
+				<li><a href="<?php echo $sitepath; ?>north-america/index.php" class="move">North America</a></li>
+				<li><a href="<?php echo $sitepath; ?>south-america/index.php" class="move">South America</a></li>
+				<li><a href="<?php echo $sitepath; ?>africa/index.php" class="move">Africa</a></li>
+				<li><a href="<?php echo $sitepath; ?>euro-aus/index.php" class="move">Europe/Australia</a></li>
+				<li><a href="<?php echo $sitepath; ?>asia/index.php" class="move">Asia</a></li>
+				<li><a href="<?php echo $sitepath; ?>oceans/index.php" class="move end-a">Oceans</a></li>
+			</ul>
+		</nav>
+	</div>
+	<main>

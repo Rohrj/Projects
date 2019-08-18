@@ -1,0 +1,139 @@
+<h2>
+  Budget
+</h2>
+
+<p>
+  The following table estimates the cost of developing and promoting the site based on the time it takes to complete tasks:
+</p>
+
+<table id="estimate">
+  <caption>Time and Cost Estimates</caption>
+  <thead>
+    <tr>
+      <th>Requirement</th>
+      <th>Vendor</th>
+      <th>Responsibility</th>
+      <th>Deadline</th>
+      <th>Hrs/Qty</th>
+      <th>Rate</th>
+      <th>Total</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>Domain name subscription</th>
+      <td>Go Daddy</td>
+      <td>Jonathan Rohr</td>
+      <td>Week 1</td>
+      <td>Annual</td>
+      <td>8</td>
+      <td class="sum">8</td>
+    </tr>
+    <tr>
+      <th>Web Hosting, SiteLock, AntiSpam subscription</th>
+      <td>Go Daddy</td>
+      <td>Jonathan Rohr</td>
+      <td>Week 1</td>
+      <td>Annual</td>
+      <td>12</td>
+      <td class="sum">12</td>
+    </tr>
+
+    <tr>
+      <th>Site Installation, configuration</th>
+      <td>Joanthan Rohr</td>
+      <td>Jonathan Rohr</td>
+      <td>Week 4</td>
+      <td>15</td>
+      <td>60</td>
+      <td class="sum">900</td>
+    </tr>
+
+    <tr>
+      <th>Logo design, color scheme, fonts, icons</th>
+      <td>Jonathan Rohr</td>
+      <td>Jonathan Rohr</td>
+      <td>Week 6</td>
+      <td>8</td>
+      <td>60</td>
+      <td class="sum">480</td>
+    </tr>
+
+    <tr>
+      <th>Photography, Videography</th>
+      <td>Enchanté Vintage & Studio</td>
+      <td>Robin Clement</td>
+      <td>Week 3</td>
+      <td>18</td>
+      <td>20</td>
+      <td class="sum">360</td>
+    </tr>
+
+    <tr>
+      <th>Write text for 20 pages</th>
+      <td>Enchanté Vintage & Studio</td>
+      <td>Jonathan Rohr and Robin Clement</td>
+      <td>Week 2</td>
+      <td>35</td>
+      <td>20</td>
+      <td class="sum">700</td>
+    </tr>
+
+    <tr>
+      <th>Add text, media, link ecommerce; up to 20 pages.</th>
+      <td>Jonathan Rohr</td>
+      <td>Jonathan Rohr</td>
+      <td>Week 5</td>
+      <td>30</td>
+      <td>60</td>
+      <td class="sum">1800</td>
+    </tr>
+    <tr>
+      <th>Ecommerce fees depend on sales</th>
+      <td>Etsy</td>
+      <td>Jonathan Rohr</td>
+      <td>Week 10</td>
+      <td>1</td>
+      <td>.06</td>
+      <td class="sum">2.1</td>
+    </tr>
+    <tr>
+      <th>Search Console, Analytics setup and analysis</th>
+      <td>Jonathan Rohr</td>
+      <td>Jonathan Rohr</td>
+      <td>Week 4</td>
+      <td>4</td>
+      <td>60</td>
+      <td class="sum">240</td>
+    </tr>
+    <tr>
+      <th>Promotional activity 1</th>
+      <td>Enchanté Vintage & Studio</td>
+      <td>Jonathan Rohr</td>
+      <td>Week 8</td>
+      <td>1</td>
+      <td>60</td>
+      <td class="sum">60</td>
+    </tr>
+    <tr>
+      <th>Promotional activity 2</th>
+      <td>Enchanté Vintage & Studio</td>
+      <td>Jonathan Rohr</td>
+      <td>Week 8</td>
+      <td>1</td>
+      <td>60</td>
+      <td class="sum">60</td>
+    </tr>
+  </tbody>
+</table>
+<script>
+  // Add 1 column of numbers. Author unknown
+  var tds = document.getElementById('estimate').getElementsByTagName('td');
+  var sum = 0;
+  for (var i = 0; i < tds.length; i++) {
+    if (tds[i].className == 'sum') {
+      sum += isNaN(tds[i].innerHTML) ? 0 : parseInt(tds[i].innerHTML);
+    }
+  }
+  document.getElementById('estimate').innerHTML += '<tfoot><tr class="total"><td colspan="6">total</td><td>$' + sum + '</td></tr></tfoot>';
+</script>
